@@ -1,0 +1,38 @@
+{
+  "name": "TwoWayEchoApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@remobile/react-native-toast": "^1.0.7",
+    "buffer": "^6.0.3",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-android-sms-listener": "^0.8.0",
+    "react-native-bluetooth-serial": "^1.0.0-rc1",
+    "react-native-call-detection": "^1.9.0",
+    "react-native-get-sms-android": "^2.1.0",
+    "react-native-sms": "^1.11.0",
+    "react-native-android-notification-listener": "^3.1.1",
+    "@react-native-async-storage/async-storage": "^1.13.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/runtime": "7.13.10",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

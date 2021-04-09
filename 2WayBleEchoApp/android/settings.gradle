@@ -1,0 +1,11 @@
+rootProject.name = 'TwoWayEchoApp'
+include ':react-native-get-sms-android'
+project(':react-native-get-sms-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-get-sms-android/android')
+include ':react-native-sms'
+project(':react-native-sms').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sms/android')
+include ':react-native-android-sms-listener'
+project(':react-native-android-sms-listener').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-sms-listener/android')
+include ':react-native-call-detection'
+project(':react-native-call-detection').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-call-detection/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
